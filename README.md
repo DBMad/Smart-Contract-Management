@@ -12,22 +12,25 @@ This project is a simple smart contract in Solidity that simulates a gacha shop 
 
 # Project Setup
 
-1. Inside the project directory, in the terminal type: npm i (this would install all dependencies)
-3. Deploy the smart contract to the local Ethereum network node:
+1. Inside the project directory, in the terminal type:
+   ```bash
+   npm i
+   ```
+2. Deploy the smart contract to the local Ethereum network node, in the terminal type:
    ```bash
    npx hardhat node
    ```
-4. Compile the smart contract:
+3. Compile the smart contract, in the terminal type:
    ```bash
    npx hardhat run --network localhost scripts/deploy.js
    ```
-5. Update the smart contract address with the address of the deployed contract.
-6. Launch the frontend:
+4. Update the smart contract address with the address of the deployed contract.
+5. Launch the frontend, in the terminal type:
    ```bash
    npm run dev
    ```
-7. Try running the program on your browser by going to http://localhost:3000/
-8. Connect your Metamask account to start shopping.
+6. Try running the program on your browser by going to http://localhost:3000/
+7. Connect your Metamask account to start shopping.
 
 # Authors
 
